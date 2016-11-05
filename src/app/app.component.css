@@ -1,0 +1,12 @@
+.active {
+    color: white !important;
+    background-color: blue !important;
+}
+
+.inputField {
+    padding: 100px 0px 0px 100px;
+}
+
+div.content {
+    padding-top: 70px;
+}

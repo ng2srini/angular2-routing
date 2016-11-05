@@ -1,0 +1,27 @@
+<p>
+    Passed Route Param : {{routeParam}}
+    Imperative Routing : <button (click)="OnNavigate()">Go Home</button>
+</p>
+
+<ul class="nav nav-links">
+    <li><a [routerLink]="['detail']">Detail</a></li>
+    <li><a [routerLink]="['edit']">Edit</a></li>
+</ul>
+<div>
+    <router-outlet></router-outlet>
+</div>
+
+<div class="container">
+    <div id="user1" style="height:350px;">
+        USER 1
+    </div>
+    <div id="user2" style="height:350px;">
+        USER 2
+    </div>
+    <div id="user3" style="height:350px;">
+        USER 3
+    </div>
+    <div id="user4" style="height:350px;">
+        USER 4
+    </div>
+</div>
